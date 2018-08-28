@@ -16,7 +16,8 @@ function pythag() {
   var b = prompt("Input 'b' value");
   var bsq = Math.pow(b,2);
   var c = asq + bsq;
-  window.alert("Your answer is " + c.toFixed(3));
+  var csq = Math.sqrt(c);
+  window.alert("Your answer is " + csq.toFixed(3));
 }
     </script>
     <button onclick="pythag()">Calc</button>
