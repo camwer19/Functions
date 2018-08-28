@@ -1,0 +1,24 @@
+<html>
+  <head></head>
+  <body>
+    <script>
+ //pythagorean theorem calculator
+
+//We need a, b, c
+
+//We need to square a, b, c
+
+//Activate when the user presses a button
+
+function pythag() {
+	var a = prompt("Input 'a' value");
+  var asq = Math.pow(a,2);
+  var b = prompt("Input 'b' value");
+  var bsq = Math.pow(b,2);
+  var c = asq + bsq;
+  window.alert("Your answer is " + c.toFixed(3));
+}
+    </script>
+    <button onclick="pythag()">Calc</button>
+  </body>
+</html>
